@@ -1,0 +1,62 @@
+/* Tùy chỉnh chung cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Kiểu dáng cho phần Giới Thiệu */
+.gioi-thieu {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gioi-thieu img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #333;
+}
+
+h1 {
+    color: #007bff;
+}
+
+/* Kiểu dáng cho các phần khác */
+.ky-nang, .lien-he {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.lien-he a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.lien-he a:hover {
+    background: #0056b3;
+}
